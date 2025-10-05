@@ -1,0 +1,15 @@
+streamlit
+requests
+pandas
+protobuf
+pyarrow
+altair
+numpy
+typing-extensions
+tenacity
+gitpython
+watchdog
+pillow
+pydeck
+google-generativeai
+
