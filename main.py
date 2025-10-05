@@ -39,3 +39,4 @@ if st.button("Generate Plan"):
             st.error("Weather data not available.")
     else:
         st.warning("Please enter a destination to continue.")
+#### will add somemore
