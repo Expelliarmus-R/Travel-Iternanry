@@ -3,7 +3,6 @@ from agent import run_agent
 from utils.weather_utils import get_weather
 import os
 from dotenv import load_dotenv
-#we will load
 
 load_dotenv()
 
