@@ -10,13 +10,7 @@ def test_weather():
     print("Weather status:", r.status_code)
     print(r.json())
 
-def test_places():
-    city = "Hyderabad"
-    key = os.getenv("PLACES_API_KEY")
-    url = f"https://maps.googleapis.com/maps/api/place/textsearch/json?query=tourist+attractions+in+{city}&key={key}"
-    r = requests.get(url)
-    print("Places status:", r.status_code)
-    print(r.json())
+
 
 test_weather()
-test_places()
+
