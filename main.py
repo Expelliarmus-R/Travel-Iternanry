@@ -8,9 +8,9 @@ load_dotenv()
 
 WEATHER_KEY = os.getenv("WEATHER_API_KEY")
 
-print("Weather Key:", WEATHER_KEY)  # DEBUG
+print("Weather Key:", WEATHER_KEY) 
 
-# 🔹 MUST BE FIRST
+
 st.set_page_config(page_title="🌍 AI Travel Planner", page_icon="✈️")
 
 st.title("🌍 AI Travel Planner")
